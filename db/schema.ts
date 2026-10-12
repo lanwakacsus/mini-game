@@ -1,0 +1,1 @@
+export const signalSprintSchemaSql = "CREATE TABLE IF NOT EXISTS signal_sprint_rooms (code TEXT PRIMARY KEY, state_json TEXT NOT NULL, updated_at INTEGER NOT NULL); CREATE INDEX IF NOT EXISTS signal_sprint_rooms_updated_at_idx ON signal_sprint_rooms(updated_at);";
